@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9074171E16D48B72009B1A37 /* SecondWarmUp4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9074171C16D48B72009B1A37 /* SecondWarmUp4ViewController.m */; };
+		9074171F16D48B72009B1A37 /* SecondWarmUp4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9074171D16D48B72009B1A37 /* SecondWarmUp4ViewController.xib */; };
+		90B7AD6D16D2C56900527621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD6C16D2C56900527621 /* UIKit.framework */; };
+		90B7AD6F16D2C56900527621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD6E16D2C56900527621 /* Foundation.framework */; };
+		90B7AD7116D2C56900527621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD7016D2C56900527621 /* CoreGraphics.framework */; };
+		90B7AD7716D2C56900527621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD7516D2C56900527621 /* InfoPlist.strings */; };
+		90B7AD7916D2C56900527621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7AD7816D2C56900527621 /* main.m */; };
+		90B7AD7D16D2C56900527621 /* WarmUp4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7AD7C16D2C56900527621 /* WarmUp4AppDelegate.m */; };
+		90B7AD7F16D2C56900527621 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD7E16D2C56900527621 /* Default.png */; };
+		90B7AD8116D2C56900527621 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD8016D2C56900527621 /* Default@2x.png */; };
+		90B7AD8316D2C56900527621 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD8216D2C56900527621 /* Default-568h@2x.png */; };
+		90B7AD8616D2C56900527621 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD8416D2C56900527621 /* MainStoryboard_iPhone.storyboard */; };
+		90B7AD8916D2C56900527621 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD8716D2C56900527621 /* MainStoryboard_iPad.storyboard */; };
+		90B7AD8C16D2C56900527621 /* WarmUp4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7AD8B16D2C56900527621 /* WarmUp4ViewController.m */; };
+		90B7AD9416D2C56900527621 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD9316D2C56900527621 /* SenTestingKit.framework */; };
+		90B7AD9516D2C56900527621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD6C16D2C56900527621 /* UIKit.framework */; };
+		90B7AD9616D2C56900527621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7AD6E16D2C56900527621 /* Foundation.framework */; };
+		90B7AD9E16D2C56900527621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD9C16D2C56900527621 /* InfoPlist.strings */; };
+		90B7ADA116D2C56900527621 /* WarmUp4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7ADA016D2C56900527621 /* WarmUp4Tests.m */; };
+		90B7ADAA16D2C89500527621 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B7AD8416D2C56900527621 /* MainStoryboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B7AD9716D2C56900527621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B7AD6116D2C56900527621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B7AD6816D2C56900527621;
+			remoteInfo = WarmUp4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9074171B16D48B72009B1A37 /* SecondWarmUp4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondWarmUp4ViewController.h; sourceTree = "<group>"; };
+		9074171C16D48B72009B1A37 /* SecondWarmUp4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondWarmUp4ViewController.m; sourceTree = "<group>"; };
+		9074171D16D48B72009B1A37 /* SecondWarmUp4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondWarmUp4ViewController.xib; sourceTree = "<group>"; };
+		90B7AD6916D2C56900527621 /* WarmUp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B7AD6C16D2C56900527621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90B7AD6E16D2C56900527621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90B7AD7016D2C56900527621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90B7AD7416D2C56900527621 /* WarmUp4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarmUp4-Info.plist"; sourceTree = "<group>"; };
+		90B7AD7616D2C56900527621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90B7AD7816D2C56900527621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90B7AD7A16D2C56900527621 /* WarmUp4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarmUp4-Prefix.pch"; sourceTree = "<group>"; };
+		90B7AD7B16D2C56900527621 /* WarmUp4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmUp4AppDelegate.h; sourceTree = "<group>"; };
+		90B7AD7C16D2C56900527621 /* WarmUp4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmUp4AppDelegate.m; sourceTree = "<group>"; };
+		90B7AD7E16D2C56900527621 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		90B7AD8016D2C56900527621 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		90B7AD8216D2C56900527621 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		90B7AD8516D2C56900527621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		90B7AD8816D2C56900527621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		90B7AD8A16D2C56900527621 /* WarmUp4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmUp4ViewController.h; sourceTree = "<group>"; };
+		90B7AD8B16D2C56900527621 /* WarmUp4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmUp4ViewController.m; sourceTree = "<group>"; };
+		90B7AD9216D2C56900527621 /* WarmUp4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmUp4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B7AD9316D2C56900527621 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		90B7AD9B16D2C56900527621 /* WarmUp4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarmUp4Tests-Info.plist"; sourceTree = "<group>"; };
+		90B7AD9D16D2C56900527621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90B7AD9F16D2C56900527621 /* WarmUp4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmUp4Tests.h; sourceTree = "<group>"; };
+		90B7ADA016D2C56900527621 /* WarmUp4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmUp4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B7AD6616D2C56900527621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7AD6D16D2C56900527621 /* UIKit.framework in Frameworks */,
+				90B7AD6F16D2C56900527621 /* Foundation.framework in Frameworks */,
+				90B7AD7116D2C56900527621 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B7AD8E16D2C56900527621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7AD9416D2C56900527621 /* SenTestingKit.framework in Frameworks */,
+				90B7AD9516D2C56900527621 /* UIKit.framework in Frameworks */,
+				90B7AD9616D2C56900527621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B7AD6016D2C56900527621 = {
+			isa = PBXGroup;
+			children = (
+				90B7AD7216D2C56900527621 /* WarmUp4 */,
+				90B7AD9916D2C56900527621 /* WarmUp4Tests */,
+				90B7AD6B16D2C56900527621 /* Frameworks */,
+				90B7AD6A16D2C56900527621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B7AD6A16D2C56900527621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD6916D2C56900527621 /* WarmUp4.app */,
+				90B7AD9216D2C56900527621 /* WarmUp4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B7AD6B16D2C56900527621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD6C16D2C56900527621 /* UIKit.framework */,
+				90B7AD6E16D2C56900527621 /* Foundation.framework */,
+				90B7AD7016D2C56900527621 /* CoreGraphics.framework */,
+				90B7AD9316D2C56900527621 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90B7AD7216D2C56900527621 /* WarmUp4 */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD7B16D2C56900527621 /* WarmUp4AppDelegate.h */,
+				90B7AD7C16D2C56900527621 /* WarmUp4AppDelegate.m */,
+				90B7AD8416D2C56900527621 /* MainStoryboard_iPhone.storyboard */,
+				90B7AD8716D2C56900527621 /* MainStoryboard_iPad.storyboard */,
+				90B7AD8A16D2C56900527621 /* WarmUp4ViewController.h */,
+				90B7AD8B16D2C56900527621 /* WarmUp4ViewController.m */,
+				90B7AD7316D2C56900527621 /* Supporting Files */,
+				9074171B16D48B72009B1A37 /* SecondWarmUp4ViewController.h */,
+				9074171C16D48B72009B1A37 /* SecondWarmUp4ViewController.m */,
+				9074171D16D48B72009B1A37 /* SecondWarmUp4ViewController.xib */,
+			);
+			path = WarmUp4;
+			sourceTree = "<group>";
+		};
+		90B7AD7316D2C56900527621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD7416D2C56900527621 /* WarmUp4-Info.plist */,
+				90B7AD7516D2C56900527621 /* InfoPlist.strings */,
+				90B7AD7816D2C56900527621 /* main.m */,
+				90B7AD7A16D2C56900527621 /* WarmUp4-Prefix.pch */,
+				90B7AD7E16D2C56900527621 /* Default.png */,
+				90B7AD8016D2C56900527621 /* Default@2x.png */,
+				90B7AD8216D2C56900527621 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90B7AD9916D2C56900527621 /* WarmUp4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD9F16D2C56900527621 /* WarmUp4Tests.h */,
+				90B7ADA016D2C56900527621 /* WarmUp4Tests.m */,
+				90B7AD9A16D2C56900527621 /* Supporting Files */,
+			);
+			path = WarmUp4Tests;
+			sourceTree = "<group>";
+		};
+		90B7AD9A16D2C56900527621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B7AD9B16D2C56900527621 /* WarmUp4Tests-Info.plist */,
+				90B7AD9C16D2C56900527621 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B7AD6816D2C56900527621 /* WarmUp4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B7ADA416D2C56900527621 /* Build configuration list for PBXNativeTarget "WarmUp4" */;
+			buildPhases = (
+				90B7AD6516D2C56900527621 /* Sources */,
+				90B7AD6616D2C56900527621 /* Frameworks */,
+				90B7AD6716D2C56900527621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarmUp4;
+			productName = WarmUp4;
+			productReference = 90B7AD6916D2C56900527621 /* WarmUp4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90B7AD9116D2C56900527621 /* WarmUp4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B7ADA716D2C56900527621 /* Build configuration list for PBXNativeTarget "WarmUp4Tests" */;
+			buildPhases = (
+				90B7AD8D16D2C56900527621 /* Sources */,
+				90B7AD8E16D2C56900527621 /* Frameworks */,
+				90B7AD8F16D2C56900527621 /* Resources */,
+				90B7AD9016D2C56900527621 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B7AD9816D2C56900527621 /* PBXTargetDependency */,
+			);
+			name = WarmUp4Tests;
+			productName = WarmUp4Tests;
+			productReference = 90B7AD9216D2C56900527621 /* WarmUp4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B7AD6116D2C56900527621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WarmUp4;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wenhao Cen";
+			};
+			buildConfigurationList = 90B7AD6416D2C56900527621 /* Build configuration list for PBXProject "WarmUp4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90B7AD6016D2C56900527621;
+			productRefGroup = 90B7AD6A16D2C56900527621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B7AD6816D2C56900527621 /* WarmUp4 */,
+				90B7AD9116D2C56900527621 /* WarmUp4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B7AD6716D2C56900527621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7AD7716D2C56900527621 /* InfoPlist.strings in Resources */,
+				90B7AD7F16D2C56900527621 /* Default.png in Resources */,
+				90B7AD8116D2C56900527621 /* Default@2x.png in Resources */,
+				90B7AD8316D2C56900527621 /* Default-568h@2x.png in Resources */,
+				90B7AD8616D2C56900527621 /* MainStoryboard_iPhone.storyboard in Resources */,
+				90B7AD8916D2C56900527621 /* MainStoryboard_iPad.storyboard in Resources */,
+				9074171F16D48B72009B1A37 /* SecondWarmUp4ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B7AD8F16D2C56900527621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7AD9E16D2C56900527621 /* InfoPlist.strings in Resources */,
+				90B7ADAA16D2C89500527621 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90B7AD9016D2C56900527621 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B7AD6516D2C56900527621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7AD7916D2C56900527621 /* main.m in Sources */,
+				90B7AD7D16D2C56900527621 /* WarmUp4AppDelegate.m in Sources */,
+				90B7AD8C16D2C56900527621 /* WarmUp4ViewController.m in Sources */,
+				9074171E16D48B72009B1A37 /* SecondWarmUp4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B7AD8D16D2C56900527621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7ADA116D2C56900527621 /* WarmUp4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90B7AD9816D2C56900527621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B7AD6816D2C56900527621 /* WarmUp4 */;
+			targetProxy = 90B7AD9716D2C56900527621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90B7AD7516D2C56900527621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B7AD7616D2C56900527621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90B7AD8416D2C56900527621 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B7AD8516D2C56900527621 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		90B7AD8716D2C56900527621 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B7AD8816D2C56900527621 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		90B7AD9C16D2C56900527621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B7AD9D16D2C56900527621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B7ADA216D2C56900527621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90B7ADA316D2C56900527621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B7ADA516D2C56900527621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp4/WarmUp4-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp4/WarmUp4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90B7ADA616D2C56900527621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp4/WarmUp4-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp4/WarmUp4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90B7ADA816D2C56900527621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarmUp4.app/WarmUp4";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp4/WarmUp4-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp4Tests/WarmUp4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		90B7ADA916D2C56900527621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarmUp4.app/WarmUp4";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp4/WarmUp4-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp4Tests/WarmUp4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B7AD6416D2C56900527621 /* Build configuration list for PBXProject "WarmUp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B7ADA216D2C56900527621 /* Debug */,
+				90B7ADA316D2C56900527621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B7ADA416D2C56900527621 /* Build configuration list for PBXNativeTarget "WarmUp4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B7ADA516D2C56900527621 /* Debug */,
+				90B7ADA616D2C56900527621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B7ADA716D2C56900527621 /* Build configuration list for PBXNativeTarget "WarmUp4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B7ADA816D2C56900527621 /* Debug */,
+				90B7ADA916D2C56900527621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B7AD6116D2C56900527621 /* Project object */;
+}
